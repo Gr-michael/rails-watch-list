@@ -1,0 +1,6 @@
+<% @lists.each do |list| %>
+<div>
+<h2><%= list.name %></h2>
+<p><%= link_to 'see more', list_path(list) %></p>
+</div>
+<% end %>
